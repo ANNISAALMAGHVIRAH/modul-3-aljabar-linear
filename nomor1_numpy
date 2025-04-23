@@ -1,0 +1,10 @@
+import numpy as np
+
+Matriks_A = np.array([[2,3],
+                     [1,-1]])
+Matriks_B = np.array([7,1])
+
+hasil = np.linalg.solve (Matriks_A,Matriks_B)
+
+print ("Hasil SPLDV adalah:")
+print ("x =",hasil[0],"y =",hasil[1])
